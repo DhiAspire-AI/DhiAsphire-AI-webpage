@@ -11,13 +11,6 @@ const Navbar = ({ COLORS }) => {
     {
       name: 'Features',
       href: '#features',
-      dropdown: [
-        { label: 'AI Mock Interviews', href: '#ai-mock-interviews' },
-        { label: 'Resume Optimization', href: '#resume-optimization' },
-        { label: 'Skill Assessments', href: '#skill-assessments' },
-        { label: 'Analytics Dashboard', href: '#analytics' },
-        { label: 'AI Job Matching', href: '#ai-job-matching' },
-      ],
     },
     {
       name: 'Students',
@@ -53,7 +46,7 @@ const Navbar = ({ COLORS }) => {
       <div className="container mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8 py-3">
         <a
           href="#home"
-          className="flex items-center gap-2 text-3xl font-extrabold tracking-tight rounded-sm"
+          className="flex items-center gap-2 rounded-sm"
           style={{ color: COLORS.ACCENT_GREEN }}
         >
           <img
@@ -61,7 +54,17 @@ const Navbar = ({ COLORS }) => {
             alt="DhiAspire logo"
             className="w-12 h-12 object-contain drop-shadow-md"
           />
-          DhiAspire AI
+          <div className="flex flex-col leading-tight">
+            <span className="text-3xl font-extrabold tracking-tight">
+              DhiAspire AI
+            </span>
+            <span
+              className="text-sm font-medium"
+              style={{ color: '#d1d5db' }} // light gray caption color
+            >
+              Aspirations to Achievements
+            </span>
+          </div>
         </a>
 
         {/* Desktop Nav */}
@@ -80,7 +83,7 @@ const Navbar = ({ COLORS }) => {
 
               {/* Dropdown */}
               {item.dropdown && (
-                <ul className="absolute left-0 mt-2 w-56 bg-gray-800/90 backdrop-blur-sm border border-gray-700/50 rounded-xl shadow-2xl opacity-0 translate-y-2 scale-95 group-hover:opacity-100 group-hover:translate-y-0 group-hover:scale-100 transform transition-all duration-300 ease-out z-50 p-1">
+                <ul className="absolute left-0 mt-2 w-56 bg-gray-900 backdrop-blur-sm border border-gray-700/50 rounded-xl shadow-2xl opacity-0 translate-y-2 scale-95 group-hover:opacity-100 group-hover:translate-y-0 group-hover:scale-100 transform transition-all duration-300 ease-out z-50 p-1">
                   {item.dropdown.map((sub) => (
                     <li key={sub.label}>
                       <a

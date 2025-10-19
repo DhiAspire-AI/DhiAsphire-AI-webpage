@@ -17,12 +17,6 @@ const COLORS = {
 
 const featuresList = [
   {
-    title: 'AI-Powered Mock Interviews',
-    description:
-      'Simulate real interview scenarios and receive instant AI feedback on communication, technical accuracy, and confidence. Helps students identify weaknesses before facing real recruiters.',
-    icon: 'Target',
-  },
-  {
     title: 'AI Resume Evaluation & Optimization',
     description:
       'Get AI-driven resume feedback for ATS compliance, content, and formatting. Automatically align your profile with job-specific skills and keywords to increase shortlisting chances.',
@@ -34,6 +28,12 @@ const featuresList = [
       'Practice coding problems and domain challenges on an integrated platform with automated scoring and skill-gap analysis to improve technical readiness.',
     icon: 'Briefcase',
   },
+  {
+    title: 'AI-Powered Mock Interviews',
+    description:
+      'Simulate real interview scenarios and receive instant AI feedback on communication, technical accuracy, and confidence. Helps students identify weaknesses before facing real recruiters.',
+    icon: 'Target',
+  },
 ];
 
 const valueProps = [
@@ -43,9 +43,9 @@ const valueProps = [
     subtitle:
       'Empower your career journey with personalized, AI-driven preparation that makes you truly job-ready — not just interview-ready.',
     bullets: [
-      'AI-Powered Mock Interviews with instant feedback on technical, behavioral, and communication skills.',
       'AI Resume Evaluation & Optimization for ATS compliance, keyword enhancement, and professional formatting.',
       'Coding & Skill Assessments with automated scoring, real-time progress tracking, and gap analysis to improve technical readiness.',
+      'AI-Powered Mock Interviews with instant feedback on technical, behavioral, and communication skills.',
     ],
     imagePlaceholder:
       'https://placehold.co/400x300/0a1d3a/a8a8a8?text=AI+Career+Readiness+Platform',

@@ -81,11 +81,11 @@ const ContactSection = ({ COLORS }) => {
         <p className="mt-10 text-gray-400 text-sm">
           Or email us directly at{' '}
           <a
-            href="mailto:dhiaspire@gmail.com"
-            className="underline"
+            href="mailto:contact@dhiaspireai.com"
+            className="none"
             style={{ color: COLORS.ACCENT_GREEN }}
           >
-            dhiaspireai@gmail.com
+            contact@dhiaspireai.com
           </a>
         </p>
       </div>
