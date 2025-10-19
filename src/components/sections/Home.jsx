@@ -18,7 +18,7 @@ const Home = ({ COLORS }) => (
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-6 max-w-4xl mx-auto">
         Bridge the{' '}
         <span className="relative inline-block">
-          Skill Gap
+          Employability Gap
           <span
             className="absolute bottom-0 left-0 w-full h-1 rounded-full"
             style={{ backgroundColor: COLORS.ACCENT_GREEN, opacity: 0.5 }}
@@ -30,7 +30,7 @@ const Home = ({ COLORS }) => (
         className="text-lg md:text-xl mb-10 max-w-3xl mx-auto"
         style={{ color: COLORS.TEXT_LIGHT }}
       >
-        DhiAspire connects education, skills, and industry demands, ensuring
+        DhiAspire AI connects education, skills, and industry demands, ensuring
         every student is job-ready and every college is data-driven.
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -85,7 +85,7 @@ const ContactSection = ({ COLORS }) => {
             className="underline"
             style={{ color: COLORS.ACCENT_GREEN }}
           >
-            dhiaspire@gmail.com
+            dhiaspireai@gmail.com
           </a>
         </p>
       </div>

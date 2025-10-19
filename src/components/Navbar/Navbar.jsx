@@ -61,11 +61,11 @@ const Navbar = ({ COLORS }) => {
             alt="DhiAspire logo"
             className="w-12 h-12 object-contain drop-shadow-md"
           />
-          DhiAspire
+          DhiAspire AI
         </a>
 
         {/* Desktop Nav */}
-        <ul className="hidden lg:flex space-x-8 text-sm font-medium relative">
+        <ul className="hidden lg:flex space-x-8 text-medium font-medium relative">
           {navItems.map((item) => (
             <li key={item.name} className="group relative">
               <a

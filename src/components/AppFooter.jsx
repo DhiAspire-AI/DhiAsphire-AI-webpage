@@ -16,7 +16,7 @@ const AppFooter = ({ COLORS }) => (
             className="text-2xl font-extrabold tracking-tight mb-3"
             style={{ color: COLORS.ACCENT_GREEN }}
           >
-            DhiAspire
+            DhiAspire AI
           </h3>
           <p>
             Empowering the next generation of talent through predictive AI and
@@ -89,7 +89,7 @@ const AppFooter = ({ COLORS }) => (
         className="text-center pt-6 border-t"
         style={{ borderColor: COLORS.GRAY_CARD }}
       >
-        &copy; {new Date().getFullYear()} DhiAspire. All rights reserved.
+        &copy; {new Date().getFullYear()} DhiAspire AI. All rights reserved.
       </div>
     </div>
   </footer>
