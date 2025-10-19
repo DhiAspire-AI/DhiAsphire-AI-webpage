@@ -7,7 +7,7 @@ const Navbar = ({ COLORS }) => {
   const toggleMobile = () => setMobileOpen((prev) => !prev);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
+    { name: 'Home', href: '/' },
     {
       name: 'Features',
       href: '#features',
@@ -45,7 +45,7 @@ const Navbar = ({ COLORS }) => {
     >
       <div className="container mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8 py-3">
         <a
-          href="#home"
+          href="/"
           className="flex items-center gap-2 rounded-sm"
           style={{ color: COLORS.ACCENT_GREEN }}
         >
