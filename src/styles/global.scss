@@ -1,0 +1,28 @@
+@use './variables.scss';
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-dark-navy);
+  color: white;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 5rem 1.5rem;
+}
+
+h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+button {
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
