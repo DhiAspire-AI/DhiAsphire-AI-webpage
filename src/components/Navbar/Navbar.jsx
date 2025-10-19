@@ -7,7 +7,7 @@ const Navbar = ({ COLORS }) => {
   const toggleMobile = () => setMobileOpen((prev) => !prev);
 
   const navItems = [
-    { name: 'Home', href: '/' },
+    { name: 'Home', href: '#home' },
     {
       name: 'Features',
       href: '#features',
