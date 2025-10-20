@@ -37,3 +37,32 @@
     transform-origin: left;
   }
 }
+.dropdown-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  color: #e5e7eb; // text-gray-200
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+
+  // Hover background
+  &:hover {
+    color: var(--hover-color, #22c55e); // fallback to green-500
+  }
+  &::after {
+    content: '⯈';
+    opacity: 0;
+    transform: translateX(-6px);
+    transition: all 0.3s ease;
+    font-weight: 500;
+  }
+
+  &:hover::after {
+    opacity: 1;
+    transform: translateX(0);
+    color: var(--hover-color, #22c55e);
+  }
+}

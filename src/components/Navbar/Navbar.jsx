@@ -85,7 +85,7 @@ const Navbar = ({ COLORS }) => {
                     <li key={sub.label}>
                       <a
                         href={sub.href}
-                        className="relative block px-3 py-2 text-sm text-gray-200 rounded-lg transition-all duration-300 group/item hover:bg-gray-700/50"
+                        className="dropdown-item group/item"
                         style={{
                           color: 'white',
                           '--hover-color': COLORS.ACCENT_GREEN,
@@ -98,7 +98,6 @@ const Navbar = ({ COLORS }) => {
                         }
                       >
                         {sub.label}
-                        <span className="absolute bottom-1 left-3 h-[2px] w-0 bg-gradient-to-r from-indigo-500 to-blue-500 opacity-0 group-hover/item:w-[calc(100%-1.5rem)] group-hover/item:opacity-100 transition-all duration-300 ease-out"></span>
                       </a>
                     </li>
                   ))}
