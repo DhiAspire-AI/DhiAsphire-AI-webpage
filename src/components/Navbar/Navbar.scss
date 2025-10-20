@@ -1,13 +1,39 @@
 .navbar {
   a {
-    // Target the navigation links in the desktop menu
     &.text-gray-200:hover {
-      color: white; 
-      // Add a subtle text shadow for a glowing effect on hover
-      text-shadow: 0 0 5px rgba(0, 184, 148, 0.5); 
+      color: white;
+      text-shadow: 0 0 5px rgba(0, 184, 148, 0.5);
     }
   }
 }
-.group\/item:hover span {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.nav-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  color: #d1d5db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #00b894;
+  }
+
+  // Underline animation
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #00b894;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
 }

@@ -71,10 +71,7 @@ const Navbar = ({ COLORS }) => {
         <ul className="hidden lg:flex space-x-8 text-medium font-medium relative">
           {navItems.map((item) => (
             <li key={item.name} className="group relative">
-              <a
-                href={item.href}
-                className="flex items-center text-gray-200 hover:text-white transition-colors duration-200"
-              >
+              <a href={item.href} className="nav-link">
                 {item.name}
                 {item.dropdown && (
                   <ChevronDown size={14} className="ml-1 mt-0.5" />
