@@ -45,12 +45,12 @@ const Navbar = ({ COLORS }) => {
     >
       <div className="container mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8 py-3">
         <a
-          href="/"
+          href="/#home"
           className="flex items-center gap-2 rounded-sm"
           style={{ color: COLORS.ACCENT_GREEN }}
         >
           <img
-            src="/assets/DhiAspire.webp"
+            src="https://dhiaspire-ai.github.io/DhiAsphire-AI-webpage/assets/DhiAspire.webp"
             alt="DhiAspire logo"
             className="w-12 h-12 object-contain drop-shadow-md"
           />
