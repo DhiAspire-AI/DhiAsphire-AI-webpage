@@ -2,7 +2,7 @@
   "name": "landing-page",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dhiaspire-ai.github.io/",
+  "homepage": "https://dhiaspire-ai.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",

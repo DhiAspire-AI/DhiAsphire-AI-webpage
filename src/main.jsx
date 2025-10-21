@@ -6,7 +6,7 @@ import './styles/global.scss';
 import { BrowserRouter } from 'react-router-dom';
 ReactDOM.createRoot(document.getElementById('app')).render(
   <React.StrictMode>
-    <BrowserRouter basename='/dhiaspire-ai.github.io/'>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
