@@ -8,11 +8,14 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.14",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.4",
     "postcss": "^8.5.6",
