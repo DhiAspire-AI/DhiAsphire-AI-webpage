@@ -50,7 +50,7 @@ const Navbar = ({ COLORS }) => {
           style={{ color: COLORS.ACCENT_GREEN }}
         >
           <img
-            src="https://dhiaspire-ai.github.io/DhiAsphire-AI-webpage/assets/DhiAspire.webp"
+            src="https://dhiaspire-ai.github.io/assets/DhiAspire.webp"
             alt="DhiAspire logo"
             className="w-12 h-12 object-contain drop-shadow-md"
           />
